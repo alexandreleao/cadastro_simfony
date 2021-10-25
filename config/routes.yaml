@@ -1,3 +1,9 @@
 #index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+ #   path: /
+ #   controller: App\Controller\DefaultController::index
+
+#number:
+ # path: /
+ # methods: GET|HEAD
+ # controller: App\Controller\AboutController::numero
+  

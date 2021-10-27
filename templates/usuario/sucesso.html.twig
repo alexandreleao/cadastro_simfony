@@ -15,4 +15,6 @@
 {# Formulário de cadastro de usuário #}
 {% block body %}
   <p class="msgSucesso"><strong>{{ usuario }}</strong>, Cadastrado com sucesso!</p>
+  <a href="{{ url('web_usuario_index') }}">Voltar</a>
 {% endblock %}
+
